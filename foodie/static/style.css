@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #141416;
+  color: #d0d0d0;
+}
+
+.logo-text {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.logo-text span {
+  color: #a855f7;
+}
+
+h1 {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+h1 strong {
+  font-weight: 600;
+  color: #a855f7;
+}
+
+.inputstyle {
+  padding: 20px !important;
+  background-color: #1e1e22 !important;
+  border: 1px solid #383840 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.inputstyle::placeholder {
+  color: #6e6e73 !important;
+}
+
+.whoop {
+  background-color: #a855f7;
+  width: 8em;
+  font-size: 30px !important;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px !important;
+}
+
+.whoop:hover {
+  background-color: #9333ea;
+  color: #ffffff;
+}
+
+.caloriescont {
+  background-color: #1e1e22;
+  padding: 30px;
+  border: 1px solid #383840 !important;
+  border-radius: 12px;
+}
+
+.caloriescont ul {
+  padding: 0px;
+}
+
+.caloriescont ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #383840;
+  width: 80%;
+  color: #d0d0d0;
+}
+
+.caloriescont h2 {
+  color: #ffffff;
+}
+
+.caloriescont h4 {
+  color: #d0d0d0;
+}
+
+.caloriescont h5 {
+  color: #a855f7;
+}
+
+.servingsize {
+  background-color: #383840;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.alert-warning {
+  background-color: #1e1e22;
+  border-color: #383840;
+  color: #fcd34d;
+}
+
+.alert-danger {
+  background-color: #1e1e22;
+  border-color: #383840;
+  color: #f87171;
+}
+
+.caloriescont img {
+    filter: invert(0.86);
+}
