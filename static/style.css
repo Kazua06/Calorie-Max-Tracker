@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-  background-color: #0f0f0f;
-  color: #ffffff;
+  background-color: #141416;
+  color: #d0d0d0;
 }
 
-/* TEXT LOGO */
 .logo-text {
   font-size: 2.5em;
   font-weight: 700;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .logo-text span {
-  color: #5fd068;
+  color: #a855f7;
 }
 
 h1 {
@@ -28,31 +27,40 @@ h1 {
 
 h1 strong {
   font-weight: 600;
-  color: #5fd068;
+  color: #a855f7;
 }
 
 .inputstyle {
   padding: 20px !important;
-  background-color: #1e1e1e !important;
-  border: 1px solid #333 !important;
+  background-color: #1e1e22 !important;
+  border: 1px solid #383840 !important;
   color: #ffffff !important;
+  border-radius: 8px !important;
 }
 
 .inputstyle::placeholder {
-  color: #888 !important;
+  color: #6e6e73 !important;
 }
 
 .whoop {
-  background-color: #5fd068;
+  background-color: #a855f7;
   width: 8em;
   font-size: 30px !important;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px !important;
+}
+
+.whoop:hover {
+  background-color: #9333ea;
   color: #ffffff;
 }
 
 .caloriescont {
-  background-color: #1e1e1e;
+  background-color: #1e1e22;
   padding: 30px;
-  border: 1px solid #333 !important;
+  border: 1px solid #383840 !important;
+  border-radius: 12px;
 }
 
 .caloriescont ul {
@@ -62,45 +70,43 @@ h1 strong {
 .caloriescont ul li {
   list-style: none;
   margin-bottom: 20px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #383840;
   width: 80%;
-  color: #ffffff;
+  color: #d0d0d0;
 }
 
 .caloriescont h2 {
   color: #ffffff;
 }
 
-.caloriescont h3 {
-  color: #5fd068;
-  font-size: 2em;
-  text-transform: capitalize;
-  font-weight: 700;
-}
-
 .caloriescont h4 {
-  color: #ffffff;
+  color: #d0d0d0;
 }
 
 .caloriescont h5 {
-  color: #5fd068;
+  color: #a855f7;
 }
 
 .servingsize {
-  background-color: #5fd068;
+  background-color: #383840;
   padding: 10px;
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
+  border-radius: 6px;
 }
 
 .alert-warning {
-  background-color: #2a2a2a;
-  border-color: #444;
-  color: #ffcc00;
+  background-color: #1e1e22;
+  border-color: #383840;
+  color: #fcd34d;
 }
 
 .alert-danger {
-  background-color: #2a1a1a;
-  border-color: #660000;
-  color: #ff6666;
+  background-color: #1e1e22;
+  border-color: #383840;
+  color: #f87171;
+}
+
+.caloriescont img {
+    filter: invert(0.86);
 }
